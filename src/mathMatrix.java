@@ -1,5 +1,5 @@
 public class mathMatrix {
-    int[][] bidMatrix = {
+     int[][] bidMatrix = {
             {1, 2},
             {3, 4},
     };
