@@ -1,26 +1,4 @@
 import java.util.Scanner;
-class Product{
-    private String name;
-    private double price;
-    private int year;
-
-    Product(String productName, double productPrice, int prodValidity){
-        name = productName;
-        price = productPrice;
-        year = prodValidity;
-
-    }
-
-    String getName(){
-        return this.name;
-    }
-
-    void setName(String newName){
-        this.name = newName;
-    }
-
-}
-
 // Attributes types
 // private -> The member can only be accessed inside the class
 // none -> The member can be accessed on the same package classes
@@ -42,7 +20,5 @@ public class GetterSetter {
 
         // New name
         System.out.println("Product name: " + product1.getName());
-
-
     }
 }

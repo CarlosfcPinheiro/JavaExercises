@@ -1,14 +1,38 @@
 import java.util.Scanner;
 
 public class Product {
-    String Prodname;
-    double Prodprice;
-    int Prodquantity;
+    private String Prodname;
+    private double Prodprice;
+    private int Prodquantity;
 
     Product(String name, double price, int quantity) {
         Prodname = name;
         Prodprice = price;
         Prodquantity = quantity;
+    }
+
+    public String getName(){
+        return this.Prodname;
+    }
+
+    public void setName(String newProdName){
+        this.Prodname = newProdName;
+    }
+
+    public double getProdprice(){
+        return this.Prodprice;
+    }
+
+    public void setProdprice(double newProdprice){
+        this.Prodprice = newProdprice;
+    }
+
+    public int getProdquantity(){
+        return this.Prodquantity;
+    }
+
+    public void setProdquantity(int newProdquantity){
+        this.Prodquantity = newProdquantity;
     }
 
     static String[] ReciveData() {

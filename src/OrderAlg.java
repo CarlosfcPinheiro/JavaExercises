@@ -25,13 +25,13 @@ public class OrderAlg {
     // Insertion Sort em ordem crescente
     public static int[] insertionSort(int[] vector){
         // Iteração para percorrer cada elemento do vetor
-        for (int i=2; i<vector.length; i++){
+        for (int i=1; i<vector.length; i++){
             // Armazenar o elemento da iteração atual
             int aux = vector[i];
             // variável de controle para percorrer o vetor da posição atual, para esquerda do vetor
             int j = i-1;
             //
-            while ((j>0) && (vector[j] > aux)){
+            while ((j>=0) && (vector[j] > aux)){
                 vector[j+1] = vector[j];
                 j--;
             }
