@@ -5,3 +5,5 @@ Repositório para armazenar meus exercícios e práticas envolvendo a linguagem 
 - Conceitos básicos
 - Orientação a Objetos
 - Vetores e Matrizes
+- Generics
+- Interfaces
