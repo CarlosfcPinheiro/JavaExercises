@@ -30,3 +30,4 @@ bin/
 
 ### Others ###
 .idea
+*.iml
