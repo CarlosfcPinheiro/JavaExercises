@@ -16,3 +16,4 @@ Repositório para armazenar meus exercícios e práticas envolvendo a linguagem 
 - Maps
 - Sets
 - Reflection
+- Serialização
